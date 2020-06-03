@@ -1,0 +1,25 @@
+// Para o node conseguir executar esse arquivo TS precisamos baixar o pacote npm install ts-node -D
+// Bibliotecas presicam vir com definição de tipos npm install @types/express -d
+
+// Rota: endereço completo da requisição
+// Recurso: Qual entidade estamos acessando do sistema '/users'
+
+// GET: Buscar uma ou mais informações do back-end
+// POST: Criar uma nova informação no back-end
+// PUT: Alterar/ Atualizar uma informação existente no back-end
+// DELETE: Deletar uma informação do back-end
+
+// POST http://localhost:3333/users = Criar um usuário
+// GET http://localhost:3333/users = Listar usuários
+// Browser sempre acessa requisições GET
+
+// Request Param: Parâmetros que vem na própria rota (/users)
+// Query Param: Parâmetros opcionais (filtro, paginação), também vem na rota (?search=na)
+// Request Body: Parâmetros para criação/ atualização de informações
+
+// SELECT * FROM users WHERE name = 'Sabrina'
+// knex('users').where('name', 'Sabrina').select('*') usando knex escrevemos em JS e permite que usemos banco de dados diferentes sem alterar nada
+
+// Migrations = Histórico do banco de Dados
+// Alterações nas tabelas = nova migration
+// Ao usar o migrations com knex facilitamos ambos devs que estejam codando a terem acesso as diferentes tabelas
