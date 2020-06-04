@@ -1,15 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import Routes from './routes'
 
+// JSX: Sintaxe de XML dentro do JavaScript TSX -> TypeScript XML
+// as variaveis e propriedades têm estado, e esse valor atual conseguimos refletir no HTML
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello Word </h1>
-      </header>
-    </div>
+   return (
+    <Routes/>
+
   );
 }
 
