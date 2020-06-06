@@ -1,6 +1,7 @@
 # ♻ Ecoleta 
-<img src="https://img.shields.io/static/v1?label=author&message=sabrinalencar&color=green&style=plastic&logo="/> <img src="https://img.shields.io/static/v1?label=languages&message=2&color=green&style=plastic&logo="/> <img src="https://img.shields.io/static/v1?label=stars&message=0&color=green&style=plastic&logo="/> <img src="https://img.shields.io/static/v1?label=contributors&message=1&color=green&style=plastic&logo="/>
+<img src="https://img.shields.io/static/v1?label=author&message=sabrinalencar&color=green&style=plastic&logo="/> <img src="https://img.shields.io/static/v1?label=languages&message=2&color=green&style=plastic&logo="/> <img src="https://img.shields.io/static/v1?label=stars&message=0&color=green&style=plastic&logo="/> <img src="https://img.shields.io/static/v1?label=contributors&message=1&color=green&style=plastic&logo="/> 
 
+Status do Projeto: Em desenvolvimento :warning:
 
 ![gif_ecoleta](https://user-images.githubusercontent.com/52963407/83955108-e6f08480-a825-11ea-8bbd-d1da241c7409.gif)
 
